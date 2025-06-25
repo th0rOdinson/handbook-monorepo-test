@@ -5,7 +5,7 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "sites",
-        "command": "pnpm run build"
+        "command": "pnpm --filter wonderland-handbook build && pnpm --filter defi-sucks-handbook build"
       }
     }
   ],
