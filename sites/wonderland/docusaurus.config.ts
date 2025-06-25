@@ -10,7 +10,7 @@ const localConfig: Config = {
     "A curated guide to our best practices, processes, and technical insights.",
   favicon: "img/favicon.ico",
   url: "https://handbook.defi.sucks/",
-  baseUrl: "/wonderland",
+  baseUrl: "/wonderland/",
   organizationName: "defi-wonderland",
   projectName: "handbook",
   plugins: [llmsTxtPlugin],
