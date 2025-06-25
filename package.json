@@ -5,6 +5,9 @@
     "packages/*",
     "sites/*"
   ],
+  "scripts": {
+    "build": "pnpm -r build"
+  },
   "devDependencies": {
     "turbo": "1.11.0",
     "typescript": "5.6.2",
