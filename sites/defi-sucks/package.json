@@ -10,7 +10,7 @@
     "typecheck": "tsc",
     "copy-static": "node ../../packages/common-config/dist/scripts/copyStaticTo.js static/common",
     "build:assets": "pnpm --filter @common-config build && pnpm copy-static",
-    "build": "pnpm build:assets && docusaurus build",
+    "build": "pnpm build:assets && docusaurus build --out-dir build",
     "dev": "docusaurus start"
   },
   "dependencies": {

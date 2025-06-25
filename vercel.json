@@ -3,19 +3,31 @@
     { "source": "/", "destination": "/wonderland", "permanent": false }
   ],
   "rewrites": [
-    { "source": "/wonderland(/.*)?", "destination": "/sites/wonderland/build/$1" },
-    { "source": "/defi-sucks(/.*)?", "destination": "/sites/defi-sucks/build/$1" }
+    {
+      "source": "/wonderland(/.*)?",
+      "destination": "/sites/wonderland/build/$1"
+    },
+    {
+      "source": "/defi-sucks(/.*)?",
+      "destination": "/sites/defi-sucks/build/$1"
+    }
   ],
   "builds": [
     {
       "src": "sites/wonderland/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "sites/wonderland/build" }
+      "config": {
+        "distDir": "sites/wonderland/build",
+        "command": "pnpm --filter wonderland-handbook build"
+      }
     },
     {
       "src": "sites/defi-sucks/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "sites/defi-sucks/build" }
+      "config": {
+        "distDir": "sites/defi-sucks/build",
+        "command": "pnpm --filter defi-sucks-handbook build"
+      }
     }
   ]
 }
