@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    { "source": "/wonderland(/.*)?", "destination": "/wonderland/$1" },
+    { "source": "/defi-sucks(/.*)?", "destination": "/defi-sucks/$1" }
+  ],
+  "builds": [
+    {
+      "src": "sites/wonderland/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "sites/wonderland/build" }
+    },
+    {
+      "src": "sites/defi-sucks/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "sites/defi-sucks/build" }
+    }
+  ],
+  "routes": [
+    { "src": "/wonderland/(.*)", "dest": "/wonderland/$1" },
+    { "src": "/defi-sucks/(.*)", "dest": "/defi-sucks/$1" }
+  ]
+}
