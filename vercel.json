@@ -3,8 +3,8 @@
     { "source": "/", "destination": "/wonderland", "permanent": false }
   ],
   "rewrites": [
-    { "source": "/wonderland(/.*)?", "destination": "/wonderland/$1" },
-    { "source": "/defi-sucks(/.*)?", "destination": "/defi-sucks/$1" }
+    { "source": "/wonderland(/.*)?", "destination": "/sites/wonderland/build/$1" },
+    { "source": "/defi-sucks(/.*)?", "destination": "/sites/defi-sucks/build/$1" }
   ],
   "builds": [
     {
