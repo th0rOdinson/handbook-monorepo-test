@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/", "destination": "/wonderland", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/wonderland(/.*)?", "destination": "/wonderland/$1" },
     { "source": "/defi-sucks(/.*)?", "destination": "/defi-sucks/$1" }

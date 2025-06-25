@@ -9,7 +9,7 @@ const localConfig: Config = {
   tagline:
     "A curated guide to our best practices, processes, and technical insights.",
   favicon: "img/favicon.ico",
-  url: "https://handbook.defi.sucks/",
+  url: "https://handbook-monorepo-test-wonderland.vercel.app",
   baseUrl: "/wonderland/",
   organizationName: "defi-wonderland",
   projectName: "handbook",
