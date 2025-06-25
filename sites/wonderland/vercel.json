@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/defi-sucks(/.*)?",
+      "destination": "https://handbook-monorepo-test-defi-sucks.vercel.app/$1"
+    }
+  ]
+}
