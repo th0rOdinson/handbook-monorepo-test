@@ -6,7 +6,7 @@
     "sites/*"
   ],
   "scripts": {
-    "build": "pnpm -r build"
+    "build": "pnpm --filter wonderland-handbook build && pnpm --filter defi-sucks-handbook build"
   },
   "devDependencies": {
     "turbo": "1.11.0",
