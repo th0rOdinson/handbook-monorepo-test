@@ -9,8 +9,8 @@ const localConfig: Config = {
   tagline:
     "A curated guide to our best practices, processes, and technical insights.",
   favicon: "img/favicon.ico",
-  url: "https://handbook.defi.sucks/defi-sucks",
-  baseUrl: "/",
+  url: "https://handbook.defi.sucks/",
+  baseUrl: "/defi-sucks",
   organizationName: "defi-sucks",
   projectName: "handbook",
   plugins: [llmsTxtPlugin],
