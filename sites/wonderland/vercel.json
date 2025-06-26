@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/optimism(/.*)?",
-      "destination": "https://handbook-monorepo-test-optimism.vercel.app/$1"
+      "destination": "https://handbook-monorepo-test-optimism.vercel.app$1"
     }
   ]
 }
