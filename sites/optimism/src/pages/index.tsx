@@ -37,14 +37,14 @@ function Home(): React.ReactElement {
       <main className={styles.main}>
         <div className={styles.centerContent}>
           <div className={styles.heroTitle}>
-            <img src="/img/logo/op.svg" alt="OP Handbook" className={styles.heroImage} />
+            <img src="/optimism/img/logo/op.svg" alt="OP Handbook" className={styles.heroImage} />
           </div>
           <p className={styles.description}>
            New to Optimism? This handbook is your guide through all the things you need to know before you get started. Cheers!
           </p>
           <div className={styles.buttonContainer}>
             <Link to="/docs/welcome" className={styles.buttonLink}>
-              <img src="/img/buttons/button.svg" alt="Get Started" className={styles.buttonImage} />
+              <img src="/optimism/img/buttons/button.svg" alt="Get Started" className={styles.buttonImage} />
             </Link>
           </div>
           <div className={styles.categoryCards}>
