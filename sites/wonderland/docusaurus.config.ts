@@ -44,8 +44,8 @@ const localConfig: Config = {
         blog: false,
         theme: {
           customCss: [
-            require.resolve("./static/common/styles/global.css"),
-            require.resolve("./src/css/local.css"),
+            "./static/common/styles/global.css",
+            "./src/css/local.css",
           ],
         },
       } satisfies Preset.Options,
